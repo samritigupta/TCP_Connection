@@ -3,8 +3,11 @@
 - UDP is a connectionless protocol and is good for scenarios where you do not necessarily need every packet to arrive at its destination, such as media streaming.
 - This project demostrates client-server examples using Java I/O framework.
 - The following code opens a connection to a server: <BR/>
-	< Socket socket = new Socket( server, port ); >
+
+	Socket socket = new Socket( server, port ); 
+	
 - Used methods to obtain input and output streams: <BR/>
+
 	InputStream in = socket.getInputStream(); <BR/>
 	OutputStream out = socket.getOutputStream();
 
