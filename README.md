@@ -37,3 +37,5 @@ Once you will satrt client program,
 Will observe the output as in ServerSocket Terminal
 -----------------------------------------------------
 Received a connection
+
+<img src="TCP.jpeg"/>
