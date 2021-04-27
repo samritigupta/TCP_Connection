@@ -4,13 +4,19 @@
 - This project demostrates client-server examples using Java I/O framework.
 - The following code opens a connection to a server: <BR/>
 
-	Socket socket = new Socket( server, port ); 
+			Socket socket = new Socket( server, port ); 
 	
 - Used methods to obtain input and output streams: <BR/>
 
-	InputStream in = socket.getInputStream(); <BR/>
-	OutputStream out = socket.getOutputStream();
+			InputStream in = socket.getInputStream(); <BR/>
+			OutputStream out = socket.getOutputStream();
 
+# Steps
+- Create a ServerSocket, specifying a port to listen on.
+- Invoke the ServerSocket's accept() method to listen on the configured port for a client connection.
+- When a client connects to the server, the accept() method returns a Socket through which the server can communicate with the client. This is the same Socket class that we used for our client, so the process is the same: obtain an InputStream to read from the client and an OutputStream write to the client.
+- If you server needs to be scalable, you will want to pass the Socket to another thread to process so that your server can continue listening for additional connections.
+- Call the ServerSocket's accept() method again to listen for another connection.
 # How to Run
 - Download the project
 - First run the main method in ServerSocketExample.java
