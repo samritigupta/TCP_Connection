@@ -10,8 +10,8 @@ Listening for a connection
 
 Will observe the output as in Client Terminal
 -----------------------------------------------------
-Loading contents of URL: 127.0.0.1
-Echo Server 1.0
+Loading contents of URL: 127.0.0.1 <BR/>
+Echo Server 1.0 <BR/>
 Echo: GET / HTTP/1.0
 
 Once you will satrt client program,
