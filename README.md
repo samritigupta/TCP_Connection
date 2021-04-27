@@ -5,7 +5,7 @@
 
 Will observe the output as in ServerSocket Terminal
 -----------------------------------------------------
-Start server on port: 80
+Start server on port: 80 <BR/>
 Listening for a connection
 
 Will observe the output as in Client Terminal
